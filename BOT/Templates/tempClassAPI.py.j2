@@ -1,0 +1,31 @@
+from utils.Compute import Compute
+import logging
+from logging.handlers import RotatingFileHandler
+logger = logging.getLogger()
+######################################################################################
+#You can modify run() method of MyBot class to implement your algorithm on this bot !#
+######################################################################################
+class {{ name }}(Compute):
+    def spark(self):
+        #Your code here
+        request = self.req
+        roomId = request['originalRequest']['data']['data']['roomId']
+        action = request['result']['action']
+        if (action=="Hello"):
+            return "Hi! How are you ?"
+        elif(action == "Goodbye"):
+            return "See you!"
+        elif (action=="List"):
+            answer = "1. Say hello when you say 'Hi' \r\n2. Say goodbye when you say 'Goodbye' \r\n3. And show you an image when you say 'Image'"
+            self.answer(roomId, text='Here is a list of what I can do : ')
+            self.answer(roomId, markdown=answer)
+            return ""
+        elif (action =="Image"):
+            self.answer(roomId, markdown="Here is an Image",files=["https://www.cisco.com/web/fw/i/logo-open-graph.gif"])
+            return ""
+        else:
+            return "I didn't understood, sorry!"
+
+    def Webhook(self):
+        #Your code Here
+        logger.info(self.request)

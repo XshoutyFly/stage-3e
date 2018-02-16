@@ -1,0 +1,30 @@
+from utils.Compute import Compute
+import logging
+from logging.handlers import RotatingFileHandler
+logger = logging.getLogger()
+######################################################################################
+#You can modify run() method of MyBot class to implement your algorithm on this bot !#
+######################################################################################
+class {{ name }}(Compute):
+    def spark(self,details,message):
+        #Your code here
+
+        if (message in ["Hello", "Hi"]):
+            return self.answer(details.roomId,markdown="Hi! How are you?")
+        elif (message in ["Goodbye", "See you"]):
+            return self.answer(details.roomId,markdown="See you soon")
+        elif (message in ["image", "Image"]):
+            return self.answer(details.roomId,markdown="Here is an Image",files=["https://www.cisco.com/web/fw/i/logo-open-graph.gif"])
+        elif (message in ["list", "List"]):
+            answer = "1. Say hello when you say 'Hi' \r\n2. Say goodbye when you say 'Goodbye' \r\n3. And show you an image when you say 'Image'"
+            self.answer(details.roomId,text='Here is a list of what I can do : ')
+            return self.answer(details.roomId,markdown=answer)
+        else:
+            return self.answer(details.roomId,markdown="I didn't understood!")
+
+    def Webhook(self):
+        #Your code Here
+        logger.info(self.request)
+
+    def newRoom(self,roomId):
+        return self.answer(roomId, text='Hi! I am so happy to meet you!')

@@ -1,0 +1,35 @@
+2018-02-16 12:49:21,346 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 12:49:21,347 :: INFO ::  * Restarting with stat
+2018-02-16 12:49:21,593 :: WARNING ::  * Debugger is active!
+2018-02-16 12:49:21,609 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 14:54:11,296 :: INFO :: 127.0.0.1 - - [16/Feb/2018 14:54:11] "POST / HTTP/1.1" 200 -
+2018-02-16 15:20:32,528 :: INFO ::  * Detected change in '/Users/cisco/Documents/Thomas/BOT/XshoutyFly/XshoutyFly.py', reloading
+2018-02-16 15:29:17,846 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 15:29:17,847 :: INFO ::  * Restarting with stat
+2018-02-16 15:29:18,164 :: WARNING ::  * Debugger is active!
+2018-02-16 15:29:18,174 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 15:29:53,082 :: INFO :: 127.0.0.1 - - [16/Feb/2018 15:29:53] "POST / HTTP/1.1" 500 -
+2018-02-16 15:32:13,339 :: INFO ::  * Detected change in '/Users/cisco/Documents/Thomas/BOT/XshoutyFly/XshoutyFly.py', reloading
+2018-02-16 15:38:25,573 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 15:38:25,574 :: INFO ::  * Restarting with stat
+2018-02-16 15:38:25,875 :: WARNING ::  * Debugger is active!
+2018-02-16 15:38:25,887 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 15:38:36,078 :: INFO :: 127.0.0.1 - - [16/Feb/2018 15:38:36] "POST / HTTP/1.1" 200 -
+2018-02-16 15:41:09,818 :: INFO ::  * Detected change in '/Users/cisco/Documents/Thomas/BOT/XshoutyFly/XshoutyFly.py', reloading
+2018-02-16 15:41:18,259 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 15:41:18,259 :: INFO ::  * Restarting with stat
+2018-02-16 15:41:18,548 :: WARNING ::  * Debugger is active!
+2018-02-16 15:41:18,558 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 15:41:27,196 :: INFO :: 127.0.0.1 - - [16/Feb/2018 15:41:27] "POST / HTTP/1.1" 200 -
+2018-02-16 15:43:50,325 :: INFO ::  * Detected change in '/Users/cisco/Documents/Thomas/BOT/XshoutyFly/XshoutyFly.py', reloading
+2018-02-16 15:55:24,945 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 15:55:24,945 :: INFO ::  * Restarting with stat
+2018-02-16 15:55:25,188 :: WARNING ::  * Debugger is active!
+2018-02-16 15:55:25,197 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 15:55:44,294 :: INFO :: 127.0.0.1 - - [16/Feb/2018 15:55:44] "POST / HTTP/1.1" 200 -
+2018-02-16 15:59:20,840 :: INFO ::  * Detected change in '/Users/cisco/Documents/Thomas/BOT/XshoutyFly/XshoutyFly.py', reloading
+2018-02-16 15:59:44,011 :: INFO ::  * Running on http://localhost:10010/ (Press CTRL+C to quit)
+2018-02-16 15:59:44,012 :: INFO ::  * Restarting with stat
+2018-02-16 15:59:44,258 :: WARNING ::  * Debugger is active!
+2018-02-16 15:59:44,267 :: INFO ::  * Debugger PIN: 213-837-181
+2018-02-16 16:00:06,630 :: INFO :: 127.0.0.1 - - [16/Feb/2018 16:00:06] "POST / HTTP/1.1" 200 -
